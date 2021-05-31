@@ -1,7 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import Main from "./components/Main";
 import Login from './components/Login'
 import {LoginContext} from './context/usercontext'
 import { useState } from "react";
